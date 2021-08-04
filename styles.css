@@ -23,18 +23,24 @@ header {
 
 .header-container {
     display: flex;
-    width: 90%;
-    min-width: 382px;
-    height: 290px;
-    max-width: 690px;
-    border:solid white 5px;
-    border-radius: 10px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 25px;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+
+    width: 90%;
+    min-width: 382px;
+    height: auto;
+    max-width: 690px;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 25px;
+
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
     
 }
 
@@ -47,7 +53,7 @@ header {
     border-radius: 50%;
     margin-bottom: 20px;
 
-    background-image: url(./assets/Profile-pic.jpeg);
+    background-image: url(./assets/img/Profile-pic.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -55,16 +61,16 @@ header {
 
 .header_bio {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    width: 95%;
-    min-width: 306px;
-    height: auto;
     padding: 5px;
+    width: 100%;
+    height: auto;
     border: solid white 2px;
     border-radius: 5px;
-    justify-content: center;
+    margin-bottom: 10px;
+
     align-items: center;
+    justify-content: center;
 }
 
 .header_bio h1{
@@ -82,28 +88,39 @@ header {
 
 .links-section {
     display: flex;
-    width: 90%;
-    max-width: 690px;
-    height: auto;
-    border:solid white 5px;
-    border-radius: 10px;
-    margin: 0 auto;
-    padding: 25px;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    
+    width: 90%;
+    min-width: 382px;
+    max-width: 690px;
+    height: auto;
+
+    margin: 0 auto;
+    padding: 25px;
+
+
+
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .linkbox {
     display: flex;
+    align-items: center;
+    justify-content: center;
+
     width: 100%;
     height: 75px;
     border: solid white 2px;
     border-radius: 5px;
     margin-bottom: 10px;
-    align-items: center;
-    justify-content: center;
+    padding: 15px;
+
 }
 
 .linkbox a {
@@ -113,3 +130,18 @@ header {
     text-decoration: none;
 }
 
+/*----ICONOS-----*/
+
+
+/* .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.icon-behance {
+    background-image: url(./assets/icons/behance.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
