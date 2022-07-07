@@ -1,0 +1,46 @@
+.bio-wrapper, .link-wrapper {
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow:  0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: solid 1px rgba(255, 255, 255, 0.18);
+}
+
+
+.profile-pic {
+    border: solid white 5px;
+    border-radius: 50%;
+    background-image: url(../assets/img/Profile-pic.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bio-container, .link-card {
+    border: solid white 2px;
+    border-radius: 5px;
+}
+
+.bio-title {
+    font-size: 1.9rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.bio-para {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.link-card a{
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: white;
+}
+
+.icon {
+    font-size: 2rem;
+    color: white;
+}
